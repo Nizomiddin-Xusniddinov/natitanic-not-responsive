@@ -1,0 +1,262 @@
+/* 
+    font-family: 'Arodora Pro' sans-serif;
+    font-family: 'NEXT ART' sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+/* universal_code */
+.title{
+    font-family: 'NEXT ART' sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: rgba(228, 228, 228, 1);
+}
+p{
+    font-family: 'Arodora Pro' sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(228, 228, 228, 1);
+}
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* header_starting */
+header{
+    width: 100%;
+    background-color: rgba(42, 42, 42, 1);
+}
+/* *** navbars_starting *** */
+header .navbars{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+header .navbars ul .home::after{
+    content: '';
+    width: 46px;
+    height: 1px;
+    background-color: rgba(226, 163, 0, 1);
+    display: block;
+}
+header .navbars ul li a{
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(228, 228, 228, 1);
+}
+/* *** header_title_starting *** */
+header .header_title h2{
+    font-family: 'NEXT ART' sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+    color: rgba(228, 228, 228, 1);
+    margin-bottom: 27px;
+}
+header .header_title p{
+    margin-bottom: 27px;
+}
+header .header_title button{
+    padding: 14px 38px;
+    background-color: rgba(226, 163, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    font-family: 'NEXT ART' sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 142px;
+}
+/* section_starting */
+section{
+    width: 100%;
+}
+/* *** know_starting ***  */
+section .know{
+    padding: 113px 100px;
+    background-color: rgba(65, 65, 65, 1);
+}
+section .know .box{
+    padding: 57px 40px 50px 40px;
+    background-color: rgba(42, 42, 42, 1);
+    border-radius: 30px;
+    text-align: center;
+   
+}
+section .know .box h4{
+    font-family: 'Arodora Pro' sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 26px;
+    color: rgba(228, 228, 228, 1);
+    margin-top: 40px;
+}
+section .know .second{
+    margin-top: 30px;
+}
+/* *** about_starting *** */
+section .about{
+    background: url('./img/about\ bac.png') no-repeat top;
+    background-color: rgba(65, 65, 65, 1);
+}
+section .about p{
+    padding: 63px;
+    background-color: rgba(44, 44, 44, 1);
+    border-radius: 14px;
+}
+section .about .twimg .ft{
+    margin-bottom: 200px;
+}
+/* *** portfolio_starting *** */
+section .portfolio{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: rgba(42, 42, 42, 1);
+}
+section .portfolio .title{
+    margin-bottom: 50px;
+    text-align: center;
+}
+section .portfolio .texts{
+    background-color: rgba(65, 65, 65, 1);
+    padding: 82px 50px 10px 80px;
+    border-radius: 30px;
+}
+/* footer_starting */
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgba(65, 65, 65, 1);
+}
+footer ul li a{
+    font-family: 'Arodora Pro' sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    font-size: 21px;
+    color: rgba(228, 228, 228, 1);
+}
+footer ul li a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+footer .img img{
+    margin-bottom: 70px;
+}
+/* media_starting */
+/*md =  991-768 */
+@media (max-width:991.98px) {
+    header .navbars .img{
+        text-align: center;
+    }
+    header .header_title h2 {
+        font-family: 'NEXT ART' sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        color: rgba(228, 228, 228, 1);
+        margin-bottom: 27px;
+    }
+    section .know .box{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NMA GAP */
